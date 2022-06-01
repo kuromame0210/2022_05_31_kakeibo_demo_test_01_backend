@@ -62,3 +62,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+<p>
+ローカルフォルダの以下のパスに存在 /Users/kurosawaryoufutoshi/MyDocument/勉強/work/laravelTest/sakura_laraveltest_01
+</p>
+
+<p>
+https://curogames.sakura.ne.jp/20220531_laravel_test_01/ で表示可能
+</p>
