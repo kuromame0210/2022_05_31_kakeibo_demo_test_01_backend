@@ -13,6 +13,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        $this->call(memoCategoryTableSeerder::class);
+        // $this->call(memoTableSeerder::class);
+        
         // \App\Models\User::factory(10)->create();
     }
 }
