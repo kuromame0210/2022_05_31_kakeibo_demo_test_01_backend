@@ -13,25 +13,25 @@ class memoCategoryTableSeerder extends Seeder
      */
     public function run()
     {
-        Fruit::create([
+        memoCategoryTable::create([
             'name' => 'ただのメモ',
         ]);
-        Fruit::create([
+        memoCategoryTable::create([
             'name' => '名言',
         ]);
-        Fruit::create([
+        memoCategoryTable::create([
             'name' => 'なんでも',
         ]);
-        Fruit::create([
+        memoCategoryTable::create([
             'name' => 'やることリスト',
         ]);
-        Fruit::create([
+        memoCategoryTable::create([
             'name' => '買いたいものリスト',
         ]);
-        Fruit::create([
+        memoCategoryTable::create([
             'name' => '今日のやること',
         ]);
-        Fruit::create([
+        memoCategoryTable::create([
             'name' => '明日やること',
         ]);
     }
