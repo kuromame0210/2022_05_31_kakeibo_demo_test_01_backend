@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use App\Models\MemoCategories;
 
 class memoCategoryTableSeerder extends Seeder
 {
@@ -13,25 +14,25 @@ class memoCategoryTableSeerder extends Seeder
      */
     public function run()
     {
-        memoCategoryTable::create([
+        MemoCategories::create([
             'name' => 'ただのメモ',
         ]);
-        memoCategoryTable::create([
+        MemoCategories::create([
             'name' => '名言',
         ]);
-        memoCategoryTable::create([
+        MemoCategories::create([
             'name' => 'なんでも',
         ]);
-        memoCategoryTable::create([
+        MemoCategories::create([
             'name' => 'やることリスト',
         ]);
-        memoCategoryTable::create([
+        MemoCategories::create([
             'name' => '買いたいものリスト',
         ]);
-        memoCategoryTable::create([
+        MemoCategories::create([
             'name' => '今日のやること',
         ]);
-        memoCategoryTable::create([
+        MemoCategories::create([
             'name' => '明日やること',
         ]);
     }
